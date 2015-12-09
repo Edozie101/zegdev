@@ -12,9 +12,9 @@ post '/mail' do
   puts "*" * 67
   puts person
   puts "*" * 67
-  name = person[name]
-  email = person[email]
-  message = person[message]
+  name = person["name"]
+  email = person["email"]
+  message = person["message"]
 
 
   Pony.mail({
