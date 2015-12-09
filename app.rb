@@ -20,7 +20,7 @@ post '/mail' do
   Pony.mail({
     :to => 'eai267@g.harvard.edu',
     :from => email,
-    :subject => "#{name} #{params}  has contacted you about ZegDev",
+    :subject => "#{name}   has contacted you about ZegDev",
     :body => "\n \n #{message} \n sent from #{name}",
     :via => :smtp,
     :via_options => {
