@@ -9,11 +9,12 @@ end
 post '/mail' do
   require 'pony'
   person = params
-  puts params
+  puts "*" * 67
+  puts person
+  puts "*" * 67
   name = person[name]
   email = person[email]
   message = person[message]
-
 
 
   Pony.mail({
