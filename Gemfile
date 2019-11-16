@@ -5,3 +5,5 @@ gem 'heroku'
 gem 'sinatra'
 gem 'sprockets'
 gem 'pony'
+
+gem 'ruby'
