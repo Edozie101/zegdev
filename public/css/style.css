@@ -954,14 +954,7 @@ figure.effect-bubba:hover p {
 	margin-left: 3em;
 }
 
-.card-pricing.popular {
-    z-index: 1;
-    border: 3px solid #007bff;
-}
-.card-pricing .list-unstyled li {
-    padding: .5rem 0;
-    color: #6c757d;
-}
+
 
 /* Example for media query */
 @media screen and (max-width: 30.6em) {
