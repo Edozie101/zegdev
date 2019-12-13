@@ -69,3 +69,37 @@
             padding: .5rem 0;
             color: #6c757d;
         }
+
+
+        .slide-imaes {
+    background-image: url(http://www.vijayyadav.tk/images/bg12.jpg);
+    background-repeat: repeat-x;
+    animation: slideRight 20000s infinite linear;
+    -webkit-animation: slideRight 20000s infinite linear;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 150px;
+}
+
+@keyframes slideRight {
+    from {
+        background-position: 90000%;
+    }
+
+    to {
+        background-position: 0%;
+    }
+}
+
+@-webkit-keyframes slideRight {
+    from {
+        background-position: 90000%;
+    }
+
+    to {
+        background-position: 0%;
+    }
+}
